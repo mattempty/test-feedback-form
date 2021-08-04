@@ -1,0 +1,38 @@
+{
+  "_id": "page.happy",
+  "_type": "page.form",
+  "actionType": "confirm",
+  "components": [
+    {
+      "_id": "page.happy--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.happy--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "best ever",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.happy--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "worst ever",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "how was it?",
+      "name": "auto_name__1"
+    },
+    {
+      "_id": "page.happy--textarea.auto_name__2",
+      "_type": "textarea",
+      "label": "Explain....",
+      "name": "auto_name__2",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "Happy Sheet",
+  "url": "happy"
+}
